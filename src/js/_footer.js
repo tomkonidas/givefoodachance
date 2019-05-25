@@ -2,4 +2,3 @@
 var currentYear = document.querySelector('#currentYear');
 var currentDate = new Date();
 currentYear.textContent=(currentDate.getFullYear());
-

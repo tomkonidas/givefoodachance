@@ -30,13 +30,20 @@
 @import "animations"
 @import "_footer"
 
+body 
+    background-color: #d6e4e4
+
+#app
+    font-size: 7rem;
+    @media (max-width: 768px)
+        font-size: 2rem;
 
 .landingHero 
-    background: black url(../images/landing.jpg) no-repeat center center / cover
+    background: black url(../images/landing.jpg) no-repeat center center/cover
     @media (max-width: 1024px)
-        background: black url(../images/landing.jpg) no-repeat center center / cover
+        background: black url(../images/landing.jpg) no-repeat center center/cover
     @media (max-width: 768px)
-        background: black url(../images/landing.jpg) no-repeat center center / cover
+        background: black url(../images/landing_mobile.jpg) no-repeat center center/cover
 
 .desktop
     @media (max-width: 1024px)
