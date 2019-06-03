@@ -1,9 +1,9 @@
 {
-  "name": "cowboymeetspirate",
+  "name": "givefoodachance",
   "version": "0.0.1",
-  "description": "Website for Canadian Rock band Cowboy Meets Pirate",
+  "description": "Website for Give Food a Chance",
   "main": "index.js",
-  "repository": "https://github.com/tomkonidas/cowboymeetspirate.git",
+  "repository": "https://github.com/tomkonidas/givefoodachance.git",
   "author": "Tom Konidas <tomkonidas@protonmail.ch>",
   "license": "MIT",
   "dependencies": {
