@@ -44,14 +44,14 @@
         <div class="hero-foot">
             <div class="content has-text-centered">
                 <div class="social animate fadeInDown one">
-                    <a href="https://www.linkedin.com/in/golfo-siozios-rd-dt-p-643191128/">
+                    <a href="https://www.linkedin.com/in/golfo-siozios-rd-dt-p-643191128/" aria-label="linkedin">
                         <span class="icon"><i class="fab fa-linkedin fa-2x linkedin" aria-label="linkedin"></i></span>
                     </a>
-                    <a href="https://www.instagram.com/givefoodachance/">
+                    <a href="https://www.instagram.com/givefoodachance/" aria-label="instagram">
                         <span class="icon"><i class="fab fa-instagram fa-2x instagram"
                                 aria-label="instagram"></i></span>
                     </a>
-                    <a href="https://twitter.com/givefoodachance">
+                    <a href="https://twitter.com/givefoodachance" aria-label="twitter">
                         <span class="icon"><i class="fab fa-twitter fa-2x twitter" aria-label="twitter"></i></span>
                     </a>
                 </div>
@@ -69,18 +69,20 @@
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
 
     <script>
-        var app = document.getElementById('app');
-
-        var typewriter = new Typewriter(app, {
-            loop: true
+        window.addEventListener('load', function() {
+            var app = document.getElementById('app');
+    
+            var typewriter = new Typewriter(app, {
+                loop: true
+            });
+    
+            typewriter.typeString('Give Food a Chance')
+                .pauseFor(2500)
+                .deleteAll()
+                .typeString('<strong>Golfo Siozios RD</strong>')
+                .pauseFor(1900)
+                .start();
         });
-
-        typewriter.typeString('Give Food a Chance')
-            .pauseFor(2500)
-            .deleteAll()
-            .typeString('<strong>Golfo Siozios RD</strong>')
-            .pauseFor(1900)
-            .start();
     </script>
 </body>
 
