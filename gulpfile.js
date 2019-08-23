@@ -19,7 +19,7 @@ const target = {
     srcHTML: 'src/*.html',
     srcFavicon: 'src/favicon/*',
     srcSASS: 'src/sass/*.sass',
-    srcJS: 'src/js/*.js',
+    // srcJS: 'src/js/*.js',
     srcIMG: 'src/images/*',
     //dist
     dist: 'dist/',
@@ -81,7 +81,7 @@ gulp.task('image', () => {
 
 
 // Clean & Build --------------------------------------------------------------
-gulp.task('build', ['js', 'sass', 'image', 'transfer','html']);
+gulp.task('build', ['sass', 'image', 'transfer','html']);
 
 gulp.task('clean', () => {
     del([target.dist]).then(paths => {
@@ -99,7 +99,7 @@ gulp.task('browser-sync', () => {
 gulp.task('watch', ['build','browser-sync'], () => {
     gulp.watch([target.srcSASS], ['sass']);
     gulp.watch([target.srcFavicon], ['transfer']);
-    gulp.watch([target.srcJS], ['js']);
+    // gulp.watch([target.srcJS], ['js']);
     gulp.watch([target.srcIMG], ['image']);
     gulp.watch([target.srcHTML], ['html']);
 });
