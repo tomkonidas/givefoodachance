@@ -1,5 +1,5 @@
 <template>
-  <img src="~/assets/logo.svg" class="Logo" />
+  <img src="~/assets/logo.svg" class="Logo" alt="Give Food a Chance Logo" />
 </template>
 
 <style scoped>
