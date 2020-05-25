@@ -4,6 +4,9 @@ export default {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: {
+      lang: "en",
+    },
     title: "Give Food a Chance",
     meta: [
       { charset: "utf-8" },
