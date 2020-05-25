@@ -3,7 +3,8 @@
     <div>
       <h1 class="title">Give Food a Chance</h1>
       <TypeWritter />
-      <Logo width="180" />
+      <Logo width="160" />
+      <Socials />
     </div>
   </div>
 </template>
@@ -11,11 +12,13 @@
 <script>
 import Logo from "~/components/Logo.vue";
 import TypeWritter from "~/components/TypeWritter.vue";
+import Socials from "~/components/Socials.vue";
 
 export default {
   components: {
     Logo,
     TypeWritter,
+    Socials,
   },
   head() {
     return {
@@ -65,6 +68,12 @@ export default {
 @media (max-width: 768px) {
   .landing {
     background: black url(/img/landing_mobile.jpg) no-repeat center center/cover;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .subtitle {
+    font-size: 26px;
   }
 }
 </style>
