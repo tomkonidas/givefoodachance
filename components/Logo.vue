@@ -2,7 +2,7 @@
   <img src="~/assets/logo.svg" class="Logo" />
 </template>
 
-<style>
+<style scoped>
 .Logo {
   animation: 2s appear;
   margin: auto;

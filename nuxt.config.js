@@ -4,14 +4,15 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "Give Food a Chance",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || "",
+        content:
+          "/giv•fōōd•ā•CHans/: Lifestyle allowing food to live up to its full potential by nourishing you & (occasionally) satisfying that sweet tooth.",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

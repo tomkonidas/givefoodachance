@@ -19,7 +19,6 @@ export default {
   },
   head() {
     return {
-      title: "Give Food a Chance",
       script: [
         { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
       ],
@@ -42,7 +41,7 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
