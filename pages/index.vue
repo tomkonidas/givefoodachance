@@ -1,19 +1,17 @@
 <template>
-  <div class="container">
+  <div class="container landing" :style="{ backgroundImage: `url(${landingBackgroundUrl})` }">
     <div>
       <logo />
-      <h1 class="title">givefoodachance</h1>
-      <h2 class="subtitle">The gfac blog</h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
+      <h1 class="title">Give Food a Chance</h1>
+      <h2 class="subtitle">Golfo Siozios RD</h2>
     </div>
   </div>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
+import landingBackgroundUrl from "~/assets/landing.jpg";
+import landingMobileBackgroundUrl from "~/assets/landing_mobile.jpg";
 
 export default {
   components: {
@@ -25,6 +23,9 @@ export default {
         { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
       ]
     };
+  },
+  data() {
+    return { landingBackgroundUrl, landingMobileBackgroundUrl };
   }
 };
 </script>
@@ -59,5 +60,11 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.landing {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
