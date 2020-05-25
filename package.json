@@ -1,25 +1,17 @@
 {
   "name": "givefoodachance",
-  "version": "0.0.1",
-  "description": "Website for Give Food a Chance",
-  "main": "index.js",
-  "repository": "https://github.com/tomkonidas/givefoodachance.git",
-  "author": "Tom Konidas <tomkonidas@protonmail.ch>",
-  "license": "MIT",
-  "dependencies": {
-    "bulma": "^0.6.2",
-    "natives": "^1.1.6"
+  "version": "1.0.0",
+  "description": "The gfac blog",
+  "author": "Tom Konidas",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
-  "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean-css": "^3.9.3",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0"
-  }
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
 }
