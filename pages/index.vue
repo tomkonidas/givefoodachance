@@ -1,32 +1,30 @@
 <template>
-  <div class="container landing" :style="{ backgroundImage: `url(${landingBackgroundUrl})` }">
+  <div class="container landing">
     <div>
-      <logo />
       <h1 class="title">Give Food a Chance</h1>
-      <h2 class="subtitle">Golfo Siozios RD</h2>
+      <TypeWritter />
+      <Logo width="180" />
     </div>
   </div>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue";
-import landingBackgroundUrl from "~/assets/landing.jpg";
-import landingMobileBackgroundUrl from "~/assets/landing_mobile.jpg";
+import TypeWritter from "~/components/TypeWritter.vue";
 
 export default {
   components: {
-    Logo
+    Logo,
+    TypeWritter,
   },
   head() {
     return {
+      title: "Give Food a Chance",
       script: [
-        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
-      ]
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+      ],
     };
   },
-  data() {
-    return { landingBackgroundUrl, landingMobileBackgroundUrl };
-  }
 };
 </script>
 
@@ -63,8 +61,11 @@ export default {
 }
 
 .landing {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: black url(/img/landing.jpg) no-repeat center center/cover;
+}
+@media (max-width: 768px) {
+  .landing {
+    background: black url(/img/landing_mobile.jpg) no-repeat center center/cover;
+  }
 }
 </style>
