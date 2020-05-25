@@ -26,7 +26,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "https://givefoodachance.com/og-image.jpg",
+        content: "/og-image.jpg",
       },
       // Often the same as your meta description, but not always.
       {
@@ -51,7 +51,7 @@ export default {
       { name: "twitter:creator", content: "@givefoodachance" },
       {
         name: "twitter:image:src",
-        content: "https://givefoodachance.com/og-image.jpg",
+        content: "/og-image.jpg",
       },
 
       // Google / Schema.org markup:
@@ -63,7 +63,7 @@ export default {
       },
       {
         itemprop: "image",
-        content: "https://givefoodachance.com/og-image.jpg",
+        content: "/og-image.jpg",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
