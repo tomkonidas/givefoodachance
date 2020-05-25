@@ -3,7 +3,7 @@
     <div>
       <h1 class="title">Give Food a Chance</h1>
       <TypeWritter />
-      <Logo width="160" />
+      <Logo />
       <Socials />
     </div>
   </div>
@@ -73,7 +73,7 @@ export default {
     font-size: 32px;
   }
   .subtitle {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 </style>
