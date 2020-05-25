@@ -11,6 +11,7 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "author", content: "Golfo Siozios" },
       {
         hid: "description",
         name: "description",
@@ -29,7 +30,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "/og-image.jpg",
+        content: "https://givefoodachance.com/og-image.jpg",
       },
       // Often the same as your meta description, but not always.
       {
@@ -54,7 +55,7 @@ export default {
       { name: "twitter:creator", content: "@givefoodachance" },
       {
         name: "twitter:image:src",
-        content: "/og-image.jpg",
+        content: "https://givefoodachance.com/og-image.jpg",
       },
 
       // Google / Schema.org markup:
@@ -66,7 +67,7 @@ export default {
       },
       {
         itemprop: "image",
-        content: "/og-image.jpg",
+        content: "https://givefoodachance.com/og-image.jpg",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
