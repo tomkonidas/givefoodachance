@@ -55,7 +55,7 @@ export default {
       },
 
       // Google / Schema.org markup:
-      { itemprop: "name", content: "https://givefoodachance.com" },
+      { itemprop: "name", content: "Give Food a Chance" },
       {
         itemprop: "description",
         content:
