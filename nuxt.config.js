@@ -54,7 +54,7 @@ export default {
       // Your twitter handle, if you have one.
       { name: "twitter:creator", content: "@givefoodachance" },
       {
-        name: "twitter:image:src",
+        name: "twitter:image",
         content: "https://givefoodachance.com/og-image.jpg",
       },
 
