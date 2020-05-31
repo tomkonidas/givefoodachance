@@ -1,0 +1,6 @@
+{
+  "date": "2020-05-31T15:19:39.809Z",
+  "title": "Test",
+  "description": "Write a meaningflll description what the blog is about. This is for SEO",
+  "body": "Hello Golfo\n\nLook an image bellow\n\n![Test that will be displayed if the image cant load](/img/landing.jpg \"Coffee :)\")\n\nHello world."
+}
