@@ -13,6 +13,12 @@ export default {
   },
   mode: "universal",
   /*
+   ** Auto import components
+   ** See https://nuxtjs.org/api/configuration-components
+   */
+  target: "static",
+  components: true,
+  /*
    ** Headers of the page
    */
   head: {

@@ -10,23 +10,14 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
-import TypeWritter from "~/components/TypeWritter.vue";
-import Socials from "~/components/Socials.vue";
-
 export default {
-  components: {
-    Logo,
-    TypeWritter,
-    Socials,
-  },
   head() {
     return {
       script: [
-        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
-      ],
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ]
     };
-  },
+  }
 };
 </script>
 
