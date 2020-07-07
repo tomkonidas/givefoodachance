@@ -9,7 +9,7 @@ collections:
   - name: "blog"
     label: "Blog"
     format: "json"
-    folder: "assets/content/blog"
+    folder: "content/articles"
     create: true
     slug: "{{slug}}"
     editor:
@@ -19,3 +19,4 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
