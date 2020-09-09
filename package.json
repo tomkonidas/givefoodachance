@@ -11,9 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.6.0",
+    "@nuxt/content": "^1.8.1",
     "@nuxtjs/markdownit": "^1.2.10",
-    "nuxt": "^2.14.1"
+    "nuxt": "^2.14.4"
   },
   "devDependencies": {}
 }
