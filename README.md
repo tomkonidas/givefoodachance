@@ -1,6 +1,6 @@
 # givefoodachance
 
-> The gfac blog
+[![Netlify Status](https://api.netlify.com/api/v1/badges/92779934-a2d0-4882-bd49-1ba2f349abd4/deploy-status)](https://app.netlify.com/sites/givefoodachance/deploys)
 
 ## Build Setup
 
